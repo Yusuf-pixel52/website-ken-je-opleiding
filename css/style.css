@@ -15,20 +15,58 @@ header {
     max-height: 15vh;
 }
 
-ul {
+.flexbox_3 {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    gap: 50px;
+}
+
+.flexbox_3 > article {
+    border: 1px solid black;
+}
+
+.grid-container > article {
+    border: 1px solid black;
+}
+
+.grid-container > article > img {
+    max-height: 100px;
+}
+
+.opleidingul {
+    font-size: 16px;
+    list-style-type: none;
+}
+
+.navul {
     display: flex;
     flex-direction: row; 
     gap: 5vw;
     font-size: 2rem;
 }
 
-
 main {
     height: 70vh;
     background-color: white;
+    padding: 4rem;
 }
 
 footer {
     height: 15vh;
     background-color: rgb(99, 7, 99);
+}
+
+.dimg {
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
