@@ -11,10 +11,12 @@ header {
     align-items: center;
 }
 
+/* voor de logoafbeelding in the header */
 .logo_image {
     max-height: 15vh;
 }
 
+/* mijn cursed css, het werkt nauwelijk dus aub niet aankomen tot aan de volgende comment */
 .flexbox_3 {
     display: grid;
     grid-template-rows: auto;
@@ -53,6 +55,14 @@ header {
     font-size: 2rem;
 }
 
+.dimg {
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* aanpassingen van main en footer */
 main {
     height: 70vh;
     background-color: white;
@@ -64,9 +74,3 @@ footer {
     background-color: rgb(99, 7, 99);
 }
 
-.dimg {
-    max-height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
